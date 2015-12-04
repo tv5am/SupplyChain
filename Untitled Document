@@ -1,0 +1,26 @@
+Tarek,
+
+Thanks for reaching out.  It is kind of you.  I guess I was right about the negative feedback but clearly the demerits were focused on me only.  Bummer but potentially fixable.  I will know more after to talk to Edward on this Thursday.
+
+To give you a sense of the data, I have attached to spreadsheets.  One spreadsheet outlines the format of the data.  It is a garment production supply chain network.  The nodes are firms and the links are the business they do for one another.  The data are in a linklist format:  sendingfirmID, receivingfirmID, start data, end date, amount sent($), amount received ($).  In the spreadsheets have used text boxes to explain each of these columns.
+
+The key column for studying robustness is the amount received column.  This column is normally positive dollars.  When the column has a negative number in it, it means that some portion of the exchange failed.  A failure can be cause by several reasons: defective garments, late garments, incorrect garments, shorted garments, garments that needed repair.
+
+The study would attempt to understand robustness of exchange network.  We could examine network and node determinants of the original of errors.  We could examine how the location of the error's origin affects how it circulates thru the network; what network factors (structure, size, quality of relationships) make errors spread vs. inhibit spreading; or the overall performance of the network given the form and frequency of errors in it.
+
+The data run from 1985 to 2005.  I am attaching two papers I published in Nature and PNAS a little while back that describes some of the network's statistical property.  
+
+Please let me know if these ideas sound interesting to you.  I look forward to hearing from you.
+
+Brian
+
+PS: A more detailed description of the data if this helps:
+
+
+Supply chain network, 1985-2005
+This is longitudinal empirical dataset on the interfirm network of the New York City garment industry from 1985 to 2003. Our data include 700,000 transactions from January 1985 to December 2003 for 10,000 firms that collaborated in the production of clothing. A link exists between two firms if they coproduce a garment. For example, the typical production process begins with a designer that develops a line of clothing. Each garment in the line is made into a sample prototype, which is disassembled into its component parts such as shelves, collars, waistbands, and so forth. The components of the sample are then sent by the designer to contractors that cut components from fabric in lots large enough to be mass produced. The cut fabric is then sent by the designer to sewing contractors that sew the fabric together into the garments that are sold directly to consumers at retailers. Links are typically undirected. Information and finances flow reciprocally as part of the production proces
+s, rather than directionally. That is, although the designer may produce the original design and sample prototype, the contractors in the network often add design changes that simplify production or enhance efficiency, which makes a final design a reciprocal effort. In our data, all designers and contractors are in the same finished goods stage of the production process; there are no downstream raw fabric suppliers (that only sell cloth) or upstream retailers (that only buy finished goods) in the data. All firms are free to make connections of their own choice; there is no governing body that suggests or mandates connections. Each transaction in the data are associated with a volume of exchange or a run. Because a single line of
+clothing is often produced in several runs, we aggregated runs between designers and contractors into a single link that represents the whole coproduction job. We focused on the largest connected component, which corresponds to 95% of the population. The dataset was collected and made available by the Union of Needle Trades and Industrial and Textile Employees (UNITE). UNITE organizes nearly all the firms in the NYGI and uses a highly reliable record system (27) that requires firms to report all their network contacts quarterly. These self-reports are checked by union auditors for accuracy. Nonunionized firms are typically small, fly-by-night firms that elude discovery because of their brief existence (27).  In the context of the NYGI, we acknowledge that error rates can fluctuate for various reasons. Based on prior research and personal communication with UNITE (43), we viewed errors as primarily due to the network’s failure to govern effective collaborations among interdependent
+
+firms. However, error rates may occur for other reasons. For example, adverse selection could leave a biased sample of firms operating in the market or market power could enable some firms to force fake returns. On the basis of our data, we cannot fully discriminate between these different micro mechanisms. Nonetheless, these other factors seem unlikely. Firms that may be victimized can appeal to UNITE, which protects weak firms against abuses of market power. Similarly, with the onslaught of international competition, adverse selection seems unlikely in that the fittest firms are most likely to
+survive.
